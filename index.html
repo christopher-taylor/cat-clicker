@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+  <ul id='cat-name-list'></ul>
+  <div id="cat-container">
+    <h1>This cat is name <span id="cat-name"></span>, you should click it.</h1> You have clicked this cat <span id=num-clicks></span> times.
+    <br />
+    <br />
+    <img id="cat-img" style="width:500px;" src="">
+  </div>
+  <form id="admin-area-controls">
+    <button type="button" id="show-hide-admin">Admin</button>
+    <button type="button" class="hideable" id="cancel">Cancel</button>
+    <button type="button" class="hideable" id="save">Save</button>
+    <br />
+    <span class="hideable" id="name-field-wrapper">Cat name: <input type="text" id="name-field"></span>
+    <br />
+    <span class="hideable" id="img-field-wrapper">Cat IMG URL: <input type="text" id="img-field"></span>
+    <br />
+    <span class="hideable" id="clicks-field-wrapper">Number of Clicks: <input type="text" id="clicks-field"></span>
+    <br />
+  </form>
+  </div>
+</body>
+<script src="js/Cat.js"></script>
+<script src="js/main.js"></script>
+
+</html>
